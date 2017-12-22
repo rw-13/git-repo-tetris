@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="info">
+            <div id="scores">Счёт: 0</div>
+            <div id="level">Уровень: 0</div>
+        </div>
+        <div id="toolbar">
+            <ul id="menu">
+                <li class="menu-item"><a href="index.html">Новая игра</a></li>
+                <li class="menu-item"><div id="pause" onclick="pressPause()">Пауза</div></li>
+            </ul>
+        </div>
+        <div id="canvas-wrapper">
+            <canvas id="tetris" width="300" height="600"></canvas>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
